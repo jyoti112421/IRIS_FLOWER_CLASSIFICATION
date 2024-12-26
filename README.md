@@ -102,6 +102,7 @@ Dimensionality Reduction: Apply PCA to reduce the dimensionality of the data to 
 Visualization: Plot the data in the reduced PCA space to visualize the separation between different species. This helps in understanding how well the species can be separated based on features.
 
 Challenges Faced
+
 Handling Missing Values: Ensuring that any missing values in the dataset are handled appropriately to avoid negatively impacting model performance.
 
 Feature Scaling: Properly scaling features to improve the performance of distance-based algorithms like KNN and SVM.
@@ -111,17 +112,22 @@ Model Selection: Choosing the best model among multiple options and tuning hyper
 Visualizing High-Dimensional Data: Using PCA to effectively visualize high-dimensional data in a lower-dimensional space.
 
 Results
+
 Final Model: The final model selected is a K-Nearest Neighbors (KNN) classifier with the optimal number of neighbors determined through cross-validation. The model achieved an accuracy of 100% on the test set.
 
 Evaluation Metrics
+
 Confusion Matrix: Display the confusion matrix to show true positive, false positive, true negative, and false negative counts. This helps in understanding the number of correct and incorrect predictions made by the model.
 
-Classification Report: Provide a detailed classification report with precision, recall, and F1-score for each species. These metrics help in understanding the model's performance for each class.
+Classification Report: 
+Provide a detailed classification report with precision, recall, and F1-score for each species. These metrics help in understanding the model's performance for each class.
 
 Visualization
+
 PCA Plot: Visualize the actual vs predicted species in the PCA-reduced space to evaluate the model's performance visually. This helps in understanding how well the model is able to separate the different species in the reduced space.
 
 Conclusion
+
 The project successfully demonstrates the application of machine learning techniques for classifying Iris flowers. The KNN model with hyperparameter tuning provided the best performance, and the use of PCA allowed for effective visualization of the classification results.
 
 
